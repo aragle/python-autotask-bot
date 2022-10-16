@@ -23,7 +23,7 @@ Step-4: Run setup.py file to complete the setup
     
  
 ## Create project
-Step-1: create a file with extension `.py`
+Step-1: create a file with extension `.py` (e.g. file_name.py)
 
 Step-2: import kormochari library
 
@@ -40,3 +40,7 @@ Step-3: Call function
 | dan_button_chapo() | Click right button of mouse  | kaz.dan_button_chapo() |
 | button_chapo('x') | Click 'x' button of keyboard  | kaz.button_chapo('enter') |
 | dui_bar_chapo() | Double click to left button of mouse  | kaz.dui_bar_chapo() |
+
+Step-4: Run project
+
+        python file_name.py
