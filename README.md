@@ -33,7 +33,7 @@ Step-3: Call function
 
 | Function | Defination | Example |
 | -----   | ----- | ----- |
-| amar_jaiga_dekhao(n_second_pore) | Position of mouse after n second   | kaz.amar_jaiga_dekhao() |
+| amar_jaiga_dekhao(n_second_pore) | Print position of mouse after n second   | kaz.amar_jaiga_dekhao(5) |
 | jao(x, y, n_second_pore) | Move mouse to (X,Y) position after n second   | kaz.jao(100,203,5) |
 | lekho(kotha) | Write inside text box | kaz.lekho("Ami ekai likhte pari.") |
 | chapo() | Click left button of mouse | kaz.chapo() |
