@@ -31,7 +31,7 @@ Step-2: import kormochari library
     
 Step-3: Call function
 
-| Function | Defination | Examle |
+| Function | Defination | Example |
 | -----   | ----- | ----- |
 | amar_jaiga_dekhao(n_second_pore) | Position of mouse after n second   | kaz.amar_jaiga_dekhao() |
 | jao(x, y, n_second_pore) | Move mouse to (X,Y) position after n second   | kaz.jao(100,203,5) |
