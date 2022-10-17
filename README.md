@@ -2,23 +2,23 @@
 Kormochari is an automatic keyboard and mouse controlling system.
 
 ## Install this library
-Download and run <a href="https://github.com/aratheunseen/kormochari/blob/installer/kc-installer.bat" download>kormochari installer</a> file.
+Download and run <a href="https://github.com/aratheunseen/kormochari/blob/installer/kc-installer.bat" download>kormochari installer</a> file and do fun.
 
 or
 
 Follow this steps -
 
-| Step-1: Clone this repository -
+-> Step-1: Clone this repository -
 
     git clone https://github.com/aratheunseen/kormochari.git
     
-Step-2: Enter the main directory
+-> Step-2: Enter the main directory
 
     cd kormochari
 
-Step-3: Open CMD/Terminal in this directory
+-> Step-3: Open CMD/Terminal in this directory
 
-Step-4: Run setup.py file to complete the setup
+-> Step-4: Run setup.py file to complete the setup
 
     pip install .
     
@@ -28,16 +28,17 @@ Step-4: Run setup.py file to complete the setup
     
  
 ## Create project
-Step-1: create a file with extension `.py` (e.g. file_name.py)
+-> Step-1: create a file with extension `.py` (e.g. file_name.py)
 
-Step-2: import kormochari library
+-> Step-2: import kormochari library
 
     from kormochari import kaz
     
-Step-3: Call function
+-> Step-3: Call function
 
 | Function | Defination | Example |
 | -----   | ----- | ----- |
+| screen_koto_boro() | It will return screen width and height   | kaz.screen_koto_boro() |
 | amar_jaiga_dekhao(n_second_pore) | Print position of mouse after n second   | kaz.amar_jaiga_dekhao(5) |
 | jao(x, y, n_second_pore) | Move mouse to (X,Y) position after n second   | kaz.jao(100,203,5) |
 | lekho(kotha) | Write inside text box | kaz.lekho("Ami ekai likhte pari.") |
@@ -46,8 +47,9 @@ Step-3: Call function
 | dan_button_chapo() | Click right button of mouse  | kaz.dan_button_chapo() |
 | button_chapo('x') | Click 'x' button of keyboard  | kaz.button_chapo('enter') |
 | dui_bar_chapo() | Double click to left button of mouse  | kaz.dui_bar_chapo() |
+| ektu_thamo(n_second) | It will wait n seconds  | kaz.ektu_thamo(2) |
 
-Step-4: Run project
+-> Step-4: Run python file
 
         python file_name.py
         
