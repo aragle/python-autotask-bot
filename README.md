@@ -55,7 +55,7 @@ Follow this steps -
         
         
 ## Sample Code
-After interpreting this code, It will search 'Notepad' on your start menu and will write "Apni obossoi parben." inside Notepad -
+After interpreting this code, It will search 'Notepad' on your start menu and will write "Jitbe tumio." inside Notepad -
         
         from kormochari import kaz
 
@@ -66,4 +66,4 @@ After interpreting this code, It will search 'Notepad' on your start menu and wi
         kaz.ektu_thamo(2)
         kaz.key_chapo('enter')
         kaz.ektu_thamo(7)
-        kaz.aste_lekho("Apni obossoi parben.")
+        kaz.aste_lekho("Jitbe tumio.")
