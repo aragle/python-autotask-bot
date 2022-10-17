@@ -2,7 +2,7 @@
 Kormochari is an automatic keyboard and mouse controlling system.
 
 ## Install this library
-Download and run <a href="https://github.com/aratheunseen/kormochari/blob/installer/kc-installer.bat" download="true">kormochari installer</a> file and do fun.
+Download and run <a id="raw-url" href="https://github.com/aratheunseen/kormochari/blob/installer/kc-installer.bat" download="true">kormochari installer</a> file and do fun.
 
 or
 
