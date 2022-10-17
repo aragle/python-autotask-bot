@@ -22,13 +22,21 @@ def dan_button_chapo():
     pyautogui.rightClick()
 
 
-def bam_button_chapo():
-    pyautogui.leftClick()
+def dui_bar_dan_button_chapo():
+    pyautogui.doubleClick(button='left')
 
 
-def button_chapo(button):
-    pyautogui.press(button)
+def key_chapo(key_name):
+    pyautogui.press(key_name)
 
 
 def dui_bar_chapo():
     pyautogui.doubleClick()
+
+
+def ektu_thamo(n_second):
+    pyautogui.time.sleep(n_second)
+
+
+def thamo(n_second):
+    pyautogui.PAUSE = n_second
