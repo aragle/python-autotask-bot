@@ -49,6 +49,7 @@ Step-4: Run project
         
 ## Sample Code
 After interpreting this code, It will search 'Notepad' on your start menu and will write "Apni obossoi parben vai." inside Notepad -
+        
         from kormochari import kaz
 
         kaz.jao(20, 1060, 2)
