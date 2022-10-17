@@ -1,6 +1,10 @@
 import pyautogui
 
 
+def screen_koto_boro():
+    return pyautogui.size()
+
+
 def amar_jaiga_dekhao(n_second_pore=1):
     pyautogui.time.sleep(n_second_pore)
     print(pyautogui.position())
