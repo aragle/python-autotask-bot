@@ -1,7 +1,7 @@
 # kormochari
 Kormochari is an automatic keyboard and mouse controlling system.
 
-## Install kormochari library
+## Install this library
 
 Step-1: Download or clone this repository -
 
