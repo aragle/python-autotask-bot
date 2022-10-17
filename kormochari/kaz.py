@@ -14,6 +14,10 @@ def lekho(kotha):
     pyautogui.typewrite(kotha)
 
 
+def aste_lekho(kotha, somoy=0.25):
+    pyautogui.write(kotha, interval=somoy)
+
+
 def chapo():
     pyautogui.click()
 
