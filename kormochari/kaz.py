@@ -38,5 +38,5 @@ def ektu_thamo(n_second):
     pyautogui.time.sleep(n_second)
 
 
-def thamo(n_second):
-    pyautogui.PAUSE = n_second
+def ghurao(n_bar=10, x=100, y=100):
+    pyautogui.scroll(n_bar, x, y)
