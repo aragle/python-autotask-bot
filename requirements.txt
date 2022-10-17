@@ -1,6 +1,0 @@
-pymsgbox
-pytweening>=1.0.4
-pyscreeze>=0.1.21
-pyautogui
-pygetwindow>=0.0.5
-mouseinfo
