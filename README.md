@@ -66,4 +66,4 @@ After interpreting this code, It will search 'Notepad' on your start menu and wi
         kaz.ektu_thamo(2)
         kaz.key_chapo('enter')
         kaz.ektu_thamo(7)
-        kaz.aste_lekho("Jitbe tumio.")
+        kaz.aste_lekho("Well Done.")
